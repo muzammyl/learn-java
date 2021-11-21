@@ -1,4 +1,6 @@
 # Java keywords
+**Keywords** in Java are reserved words that represent predefined actions,
+internal processes.
 
 
 ## Other keywords
