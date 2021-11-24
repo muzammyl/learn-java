@@ -13,9 +13,17 @@ internal processes.
 
 ##  Data types
 
+### Primitive types
+
 | Name | Group/Width | Syntax | Rang |
 | ---- | ----------- | ------ | ---- |
+| byte | integer/8-bit | `byte variable_name = value;` | -128 - 127 |
+| short | integer/16-bit | `int variable_name = value;` | -32768 - 32767 |
+| int | integer/32-bit | `int variable_name = value;` | -2147483648 - 2147483647 |
 | long | integer/64-bit | `long variable_name = value;` | -9223372036854775808 - 9223372036854775807 |
+| float | floating point/32-bit | `float variable_name = valuef;` | 1.4e-045 - 3.4e+038 |
+| double | floating point/64-bit | `double variable_name = value;` | 4.9e-324 - 1.8e+308 |
+| char | characters/16-bit | `char variable_name = 'value';` | 0 - 65536 |
 | boolean | boolean | `boolean variable_name = true/false;` | true - false |
 
 
