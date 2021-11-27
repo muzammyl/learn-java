@@ -51,3 +51,19 @@ internal processes.
 | :: | create method or constructor reference. |
 | ... | indicates variable-arity parameter. |
 | @ | begins an annotation. |
+
+
+## Escape sequences
+
+| Symbol | Description |
+| ------ | ----------- |
+| \ddd | octal character |
+| \uxxxx | hexadecimal unicode character |
+| \\' | single quote |
+| \\" | double quote |
+| \\\ | backslash |
+| \r | carriage return |
+| \n | new line |
+| \f | form feed |
+| \t | tab |
+| \b | backspace |
