@@ -36,6 +36,8 @@ internal processes.
 | `private` | prevents member to be used outside the class. |
 | `static` | used to execute the `main()` without particular instance of class. |
 | `void` | tells the compiler that `main()` does not return a value. |
+| `var` | reserved type-name, auto tells type of variable, also act as identifier, can be used with arrays (brackets[] should only be used by type not with `var` in arrays). |
+| `String` | `String` defines an object, used to declare string variables, simply `String var-name = "value";` (example). |
 
 
 ## Separators
