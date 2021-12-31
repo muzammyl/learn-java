@@ -1,3 +1,5 @@
+package src.typeCasting;
+
 public class explicit {
     public static void main(String[] args) {
         byte b;
