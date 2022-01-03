@@ -15,8 +15,8 @@ internal processes.
 
 ### Primitive types
 
-| Name | Group/Width | Syntax | Rang |
-| ---- | ----------- | ------ | ---- |
+| Name | Group/Width | Syntax | Range |
+| ---- | ----------- | ------ | ----- |
 | byte | integer/8-bit | `byte variable_name = value;` | -128 - 127 |
 | short | integer/16-bit | `int variable_name = value;` | -32768 - 32767 |
 | int | integer/32-bit | `int variable_name = value;` | -2147483648 - 2147483647 |
