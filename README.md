@@ -1,4 +1,4 @@
-# learn-java    ![GitHub repo size](https://img.shields.io/github/repo-size/muzammyl/learn-java)
+# learn-java
 
 This repository is the best way to **learn-java** efficiently, in this repo you'll find every element in detail with their examples to help beginners.
 
