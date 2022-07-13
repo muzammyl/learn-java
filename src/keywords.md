@@ -11,7 +11,7 @@ internal processes.
 | for | `for(initialization; condition; iteration) statement(s);` |
 
 
-##  Data types
+##  **Data types**
 
 ### Primitive types
 
@@ -69,3 +69,38 @@ internal processes.
 | \f | form feed |
 | \t | tab |
 | \b | backspace |
+
+## Arithmetic operators
+
+| Operator | Result |
+| -------- | ------ |
+| + | Addition |
+| - | Subtraction |
+| * | Multiplication |
+| / | Division |
+| % | Modulus |
+| ++ | Increment |
+| += | Addition assignment |
+| -= | Subtraction assignment |
+| *= | Multiplication assignment |
+| /= | Division assignment |
+| %= | Modulus assignment |
+| -- | Decrement |
+
+## Bitwise operators
+
+| Operator | Result |
+| -------- | ------ |
+| ~ | NOT |
+| & | AND |
+| \| | OR |
+| ^ | exclusive OR |
+| >> | Shift right |
+| >>> | Shift right zero fill |
+| << | Shift left |
+| &= | AND assignment |
+| \|= | OR assignment |
+| ^= | exclusive OR assignment |
+| >>= | Shift right assignment |
+| >>>= | Shift right zero fill assignment |
+| <<= | Shift left assignment |
