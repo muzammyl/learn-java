@@ -18,9 +18,9 @@ internal processes.
 
 | Name | Description |
 | ---- | ----------- |
-| `break` | Use to terminate loop, switch statement, **goto** statement(`break` *`label`*`;`) |
-| `continue` | Useful to force an early iteration of a loop |
-| `return` | Use to explicitly return from the method, control transfer back to the caller of the method |
+| `break` | Use to terminate loop, switch statement, **goto** statement(`break` *`label`*`;`). |
+| `continue` | Useful to force an early iteration of a loop. |
+| `return` | Use to explicitly return from the method, control transfer back to the caller of the method. |
 
 
 ##  **Data types**
@@ -50,6 +50,7 @@ internal processes.
 | `void` | tells the compiler that `main()` does not return a value. |
 | `var` | reserved type-name, auto tells type of variable, also act as identifier, can be used with arrays (brackets[] should only be used by type not with `var` in arrays). |
 | `String` | `String` defines an object, used to declare string variables, simply `String var-name = "value";` (example). |
+| `new` | it dynamically allocates memory for an object. |
 
 
 ## Separators
