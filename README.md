@@ -18,7 +18,11 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 
 ### [Control Statements](src/controlStatements)
 - [`for` statement](src/controlStatements/forStatement/for_loop.java)
+- [`for-each`](src/controlStatements/forStatements/forEach.java)
 - [`if` statement](src/controlStatements/ifStatement/if_statement.java)
+- [`switch` statement](src/controlStatements/switchStatement/switch_statement.java)
+- [`while` statement](src/controlStatements/whileStatements/while_statement.java)
+- [`do-while` statement](src/controlStatements/whileStatements/doWhile_statement.java)
 
 ### [Data Types](src/dataTypes)
 - [Primitive Types](src/dataTypes/primitiveType)
