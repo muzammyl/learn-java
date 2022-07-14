@@ -3,7 +3,7 @@
 internal processes.
 
 
-## Control Statements
+## **Control Statements**
 
 | Name | Syntax |
 | ---- | ------ |
@@ -13,6 +13,14 @@ internal processes.
 | switch | `switch(expression) {`<br>`case value1:`<br>`//statement(s)`<br>`break;`<br>`.`<br>`.`<br>`case value(n):`<br>`//statement(s)`<br>`break;`<br>`default:`<br>`//default statement(n)`<br>`}` |
 | while | `while(condition) {`<br>`//body of loop`<br>`}` |
 | do-while | `do {`<br>`//body of loop`<br>`} while(condition);` |
+
+### Jump statements
+
+| Name | Description |
+| ---- | ----------- |
+| `break` | Use to terminate loop, switch statement, **goto** statement(`break` *`label`*`;`) |
+| `continue` | Useful to force an early iteration of a loop |
+| `return` | Use to explicitly return from the method, control transfer back to the caller of the method |
 
 
 ##  **Data types**
