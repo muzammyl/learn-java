@@ -8,3 +8,16 @@ class if_statement {
         }
     }
 }
+
+class nestedIf {
+    public static void main(String[] args) {
+        int month = 12;
+        String season, monthName = "April";
+        if(month == 12) {
+            if(monthName == "April") {
+                season = "Spring";
+                System.out.println("Season in " + monthName + " is " + season);
+            }
+        }
+    }
+}
