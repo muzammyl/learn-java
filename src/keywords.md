@@ -7,9 +7,12 @@ internal processes.
 
 | Name | Syntax |
 | ---- | ------ |
-| if | `if(condition) Statement;` |
+| if | `if(condition) Statement(s);`<br>`else statment(s);` |
 | for | `for(initialization; condition; iteration) statement(s);` |
-| switch | `switch(expression) { case value1: //statement(s) break; . . case value(n): //statement(s) break; default: //default statement(n) }` |
+| for-each | `for(type itr-var : collection) statement(s);` |
+| switch | `switch(expression) {`<br>`case value1:`<br>`//statement(s)`<br>`break;`<br>`.`<br>`.`<br>`case value(n):`<br>`//statement(s)`<br>`break;`<br>`default:`<br>`//default statement(n)`<br>`}` |
+| while | `while(condition) {`<br>`//body of loop`<br>`}` |
+| do-while | `do {`<br>`//body of loop`<br>`} while(condition);` |
 
 
 ##  **Data types**
