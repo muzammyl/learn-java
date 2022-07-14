@@ -9,6 +9,7 @@ internal processes.
 | ---- | ------ |
 | if | `if(condition) Statement;` |
 | for | `for(initialization; condition; iteration) statement(s);` |
+| switch | `switch(expression) { case value1: //statement(s) break; . . case value(n): //statement(s) break; default: //default statement(n) }` |
 
 
 ##  **Data types**
