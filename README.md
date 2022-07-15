@@ -44,7 +44,13 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 - [`var` as Identifier](src/varTypeInference/varIdentifier.java)
 - [`var` Data-Type](src/varTypeInference/varType.java)
 
-### [class & object](src/classesObjects/classObject.java)
+### [Class & Object](src/classesObjects/classObject.java)
+
+### [Methods](src/method/methods.java)
+
+### [Constructor](src/constructor/constructors.java)
+
+### [`this` Keyword](src/thisKeyword/this_keyword.java)
 
 ### [goto statement](src/gotoStatement/goto_statement.java)
 

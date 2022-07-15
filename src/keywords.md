@@ -51,6 +51,7 @@ internal processes.
 | `var` | reserved type-name, auto tells type of variable, also act as identifier, can be used with arrays (brackets[] should only be used by type not with `var` in arrays). |
 | `String` | `String` defines an object, used to declare string variables, simply `String var-name = "value";` (example). |
 | `new` | it dynamically allocates memory for an object. |
+| `this` | it is used inside any method to refer to the current object. |
 
 
 ## Separators

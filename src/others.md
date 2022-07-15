@@ -1,4 +1,4 @@
-## Type Casting
+## **Type Casting**
 
 When we assign a value of one type to a variable of another type, type casting performed.
 - Automatic conversions casting
@@ -15,7 +15,7 @@ To create a conversion between two incompatible types, you must use a cast. It i
 `(target-type) value`
 
 
-## Arrays
+## **Arrays**
 
 An array is a group of like-typed variables, commomly reffered by a common name. It may has one or more dimensions with elements accessed by their index.
 
@@ -43,4 +43,44 @@ type name[][][] = new type[][][]; (3D)
 .
 .
 .
+```
+
+## **Class & object**
+
+`class` basically defines a new data type, a class is the template for an object & object is instance of class.
+
+`class` Syntax:
+
+```
+class classname {
+    //body
+}
+```
+
+`object` Syntax:
+
+*`class-name`* *`object-name`* `= new` *`class-name`*`();`
+
+### Methods
+
+Method Syntax:
+
+```
+type name(parameter-list) {
+    //body of method
+}
+```
+
+### Constructors
+
+Constructor initializes an object immediately upon creation. It has the same name as the class.
+
+Syntax:
+
+```
+class class-name {
+    class-name(parameter-list) {
+        //body
+    }
+}
 ```
