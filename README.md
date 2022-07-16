@@ -47,8 +47,10 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 ### [Class & Object](src/classesObjects/classObject.java)
 
 ### [Methods](src/method/methods.java)
+- [Overload Method](src/method/overload_method.java)
 
 ### [Constructor](src/constructor/constructors.java)
+- [Overload Constructor](src/constructor/overload_constructor.java)
 
 ### [`this` Keyword](src/thisKeyword/this_keyword.java)
 
