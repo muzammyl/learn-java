@@ -48,6 +48,7 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 
 ### [Methods](src/method/methods.java)
 - [Overload Method](src/method/overload_method.java)
+- [Recursion](src/method/recursion.java)
 
 ### [Constructor](src/constructor/constructors.java)
 - [Overload Constructor](src/constructor/overload_constructor.java)

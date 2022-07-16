@@ -84,3 +84,7 @@ class class-name {
     }
 }
 ```
+
+### Recursion
+
+Recursion is the process of defining something in terms of itself, it allows a method to call itself. Use `if` statement with recursion otherwise method will never terminate.
