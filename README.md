@@ -53,6 +53,9 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 ### [Constructor](src/constructor/constructors.java)
 - [Overload Constructor](src/constructor/overload_constructor.java)
 
+### [Access Modifiers](src/accessModifiers/)
+- [`public` & `private`](src/accessModifiers/publicPrivate.java)
+
 ### [`this` Keyword](src/thisKeyword/this_keyword.java)
 
 ### [goto statement](src/gotoStatement/goto_statement.java)
