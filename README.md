@@ -71,9 +71,9 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 
 ## Mailing Support
 
-For any question or issues contact : java_administrator_grp@oracle.com
+For questions or issues contact : <a href="mailto:java_administrator_grp@oracle.com" subject="Email">Need Java Help?</a>
 
-Discord Server : https://javadiscord.net/
+For conversations join Java <a href="https://javadiscord.net/" subject="Discord server">Discord server</a>
 
 ------------
 <a href="https://mit-license.org/" title="License"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/MIT_logo.svg" align="right" height="32" width="64"/></a>
