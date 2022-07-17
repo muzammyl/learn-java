@@ -15,6 +15,7 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 ### [Arrays](src/arrays)
 - [Multi-Dimension](src/arrays/multi-dim.java)
 - [Single-Dimension](src/arrays/one-dim.java)
+- [Array `length`](src/arrays/array_length.java)
 
 ### [Control Statements](src/controlStatements)
 - [`for` statement](src/controlStatements/forStatement/for_loop.java)
@@ -35,6 +36,7 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
     - [`float`](src/dataTypes/primitiveType/float_type.java)
     - [`double`](src/dataTypes/primitiveType/double_type.java)
 - [`String` Type](src/dataTypes/stringType/stringDataType.java)
+    - [`String` Methods](src/dataTypes/stringType/string_methods.java)
 
 ### [Type Casting](src/typeCasting)
 - [Auto-Type casting](src/typeCasting/automatic.java)
@@ -55,6 +57,9 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 
 ### [Access Modifiers](src/accessModifiers/)
 - [`public` & `private`](src/accessModifiers/publicPrivate.java)
+
+### [non-Access Modifier](src/nonAccessModifier/)
+- [`static` Keyword](src/nonAccessModifier/staticKeyword.java)
 
 ### [`this` Keyword](src/thisKeyword/this_keyword.java)
 

@@ -46,12 +46,13 @@ internal processes.
 | `main` | java program begins execution by calling `main()`. |
 | `public` | it is used when code line is to be used outside the class. |
 | `private` | prevents member to be used outside the class. |
-| `static` | used to execute the `main()` without particular instance of class. |
+| `static` | a `static` member can be accessed before any objects of its class are created, & without reference to any object. |
 | `void` | tells the compiler that `main()` does not return a value. |
 | `var` | reserved type-name, auto tells type of variable, also act as identifier, can be used with arrays (brackets[] should only be used by type not with `var` in arrays). |
 | `String` | `String` defines an object, used to declare string variables, simply `String var-name = "value";` (example). |
 | `new` | it dynamically allocates memory for an object. |
 | `this` | it is used inside any method to refer to the current object. |
+| `final` | a `final` member can't be modified, making it a constant. `final` member must be initialized when it is declared. |
 
 
 ## Separators
