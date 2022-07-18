@@ -16,6 +16,7 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 - [Multi-Dimension](src/arrays/multi-dim.java)
 - [Single-Dimension](src/arrays/one-dim.java)
 - [Array `length`](src/arrays/array_length.java)
+- [Command-Line args](src/arrays/commandLine_args.java)
 
 ### [Control Statements](src/controlStatements)
 - [`for` statement](src/controlStatements/forStatement/for_loop.java)
