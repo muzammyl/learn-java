@@ -88,3 +88,11 @@ class class-name {
 ### Recursion
 
 Recursion is the process of defining something in terms of itself, it allows a method to call itself. Use `if` statement with recursion otherwise method will never terminate.
+
+## Variable-Length Arguments
+
+Syntax:
+
+`data-type ... variable-name`
+
+Thus, VarArgs are specified by three periods(...). This syntax tells the compiler that variable number of arguments will be used, these args will be stored in an array referred to var-name.
