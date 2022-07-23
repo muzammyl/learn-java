@@ -57,6 +57,9 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 ### [Constructor](src/constructor/constructors.java)
 - [Overload Constructor](src/constructor/overload_constructor.java)
 
+### [Inheritance](src/inheritance/)
+- [`extends` Keyword](src/inheritance/extends_keyword.java)
+
 ### [Access Modifiers](src/accessModifiers/)
 - [`public` & `private`](src/accessModifiers/publicPrivate.java)
 
