@@ -53,7 +53,14 @@ internal processes.
 | `new` | it dynamically allocates memory for an object. |
 | `this` | it is used inside any method to refer to the current object. |
 | `final` | a `final` member can't be modified, making it a constant. `final` member must be initialized when it is declared. |
+
+
+## Inheritance
+
+| Syntax | Description |
+| ------ | ----------- |
 | `extends` | `extends` keyword simply incorporate the definition of one class into another(can't access `private` members). |
+| `super` | subclass can call a constructor defined by its superclass by use of `super(arg-list);` |
 
 
 ## Separators
