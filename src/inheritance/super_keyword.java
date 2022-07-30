@@ -68,3 +68,26 @@ class demoSuper {
         System.out.println();
     }
 }
+
+class a1 {
+    int i;
+}
+
+class b1 extends a1 {
+    int i;
+    b1(int a,int b) {
+        super.i = a;
+        i = b;
+    }
+    void display() {
+        System.out.println("i of superclass: " + super.i);
+        System.out.println("i of subclass: " + i);
+    }
+}
+
+class superThisDemo {
+    public static void main(String[] args) {
+        b1 obj = new b1(7, 2);
+        obj.display();
+    }
+}
