@@ -60,7 +60,7 @@ internal processes.
 | Syntax | Description |
 | ------ | ----------- |
 | `extends` | `extends` keyword simply incorporate the definition of one class into another(can't access `private` members). |
-| `super` | subclass can call a constructor defined by its superclass by use of `super(arg-list);` |
+| `super` | subclass can call a constructor defined by its superclass by use of `super(arg-list);`, it also acts like `this` keyword like `super.member;` |
 
 
 ## Separators
