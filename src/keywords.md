@@ -52,7 +52,8 @@ internal processes.
 | `String` | `String` defines an object, used to declare string variables, simply `String var-name = "value";` (example). |
 | `new` | it dynamically allocates memory for an object. |
 | `this` | it is used inside any method to refer to the current object. |
-| `final` | a `final` member can't be modified, making it a constant. `final` member must be initialized when it is declared. |
+| `final` | a `final` member can't be modified, making it a constant. `final` member must be initialized when it is declared. Methods declared as `final` also cann't be overriden. `class` declared as `final` cann't be inherited. |
+| `Object` | `Object` is a superclass of all other classes, a reference variable of type `Object` can refer to an object of any other class. |
 
 
 ## Inheritance
@@ -128,3 +129,17 @@ internal processes.
 | >>= | Shift right assignment |
 | >>>= | Shift right zero fill assignment |
 | <<= | Shift left assignment |
+
+## Object class methods
+
+| Method | Purpose |
+| ------ | ------- |
+| `Object clone()` | creates a new object that is same as the object being cloned. |
+| `boolean equal(Object `*`object`*`)` | determine wheather one object is equal to another. |
+| `void finalize()` | called before an unused object is recycled. |
+| `Class<?>getClass()` | obtains the class of an object at run time. |
+| `int hashCode()` | returns the hash code associated with the invoking object. |
+| `void notify()` | resumes execution of a thread waiting on the invoking object. |
+| `void notifyAll()` | resumes execution of all thread waiting on the invoking object. |
+| `String toString()` | returns a string that describes the object. |
+| `void wait()`<br>`void wait(long milliseconds)`<br>`void wait(long milliseconds, nanoseconds)` | waits on another thread of execution. |
