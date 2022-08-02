@@ -61,6 +61,7 @@ internal processes.
 | ------ | ----------- |
 | `extends` | `extends` keyword simply incorporate the definition of one class into another(can't access `private` members). |
 | `super` | subclass can call a constructor defined by its superclass by use of `super(arg-list);`, it also acts like `this` keyword like `super.member;` |
+| `abstract` | `abstract class` cann't be used to create object, it must be inherited from one class to another. `abstract` method can only be used in abstract class, it is undefined(no body), body is placed in subclass. |
 
 
 ## Separators

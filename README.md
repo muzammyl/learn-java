@@ -61,6 +61,7 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 - [`extends` Keyword](src/inheritance/extends_keyword.java)
 - [`super` Keyword](src/inheritance/super_keyword.java)
 - [Method override](src/inheritance/method_overRide.java)
+- [`abstract` Keyword](src/inheritance/abstract_keyword.java)
 
 ### [Access Modifiers](src/accessModifiers/)
 - [`public` & `private`](src/accessModifiers/publicPrivate.java)
