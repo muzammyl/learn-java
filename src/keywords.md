@@ -39,6 +39,15 @@ internal processes.
 | boolean | boolean | `boolean variable_name = true/false;` | true - false |
 
 
+## Inheritance
+
+| Syntax | Description |
+| ------ | ----------- |
+| `extends` | `extends` keyword simply incorporate the definition of one class into another(can't access `private` members). |
+| `super` | subclass can call a constructor defined by its superclass by use of `super(arg-list);`, it also acts like `this` keyword like `super.member;` |
+| `abstract` | `abstract class` cann't be used to create object, it must be inherited from one class to another. `abstract` method can only be used in abstract class, it is undefined(no body), body is placed in subclass. |
+
+
 ## Other keywords
 
 | Syntax | Description |
@@ -54,15 +63,7 @@ internal processes.
 | `this` | it is used inside any method to refer to the current object. |
 | `final` | a `final` member can't be modified, making it a constant. `final` member must be initialized when it is declared. Methods declared as `final` also cann't be overriden. `class` declared as `final` cann't be inherited. |
 | `Object` | `Object` is a superclass of all other classes, a reference variable of type `Object` can refer to an object of any other class. |
-
-
-## Inheritance
-
-| Syntax | Description |
-| ------ | ----------- |
-| `extends` | `extends` keyword simply incorporate the definition of one class into another(can't access `private` members). |
-| `super` | subclass can call a constructor defined by its superclass by use of `super(arg-list);`, it also acts like `this` keyword like `super.member;` |
-| `abstract` | `abstract class` cann't be used to create object, it must be inherited from one class to another. `abstract` method can only be used in abstract class, it is undefined(no body), body is placed in subclass. |
+| `package` | `package` *`pkg;`* (syntax) statement defines a name space in which your classes are stored. For multilevel package, we use hierarchy of packages like: `package` *`pkg1.pkg2.pk3;`* |
 
 
 ## Separators
