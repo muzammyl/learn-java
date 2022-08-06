@@ -96,3 +96,14 @@ Syntax:
 `data-type ... variable-name`
 
 Thus, VarArgs are specified by three periods(...). This syntax tells the compiler that variable number of arguments will be used, these args will be stored in an array referred to var-name.
+
+
+## **Class Member Access**
+
+| Category | Private | No Modifier | Protected | Public |
+| -------- | ------- | ----------- | --------- | ------ |
+| **Same class** | Yes | Yes | Yes | Yes |
+| **Same package subclass** | No | Yes | Yes | Yes |
+| **Same package non-subclass** | No | Yes | Yes | Yes |
+| **Different package subclass** | No | No | Yes | Yes |
+| **Different package non-subclass** | No | No | No | Yes |
