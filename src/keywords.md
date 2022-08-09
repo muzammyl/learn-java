@@ -64,6 +64,7 @@ internal processes.
 | `final` | a `final` member can't be modified, making it a constant. `final` member must be initialized when it is declared. Methods declared as `final` also cann't be overriden. `class` declared as `final` cann't be inherited. |
 | `Object` | `Object` is a superclass of all other classes, a reference variable of type `Object` can refer to an object of any other class. |
 | `package` | `package` *`pkg;`* (syntax) statement defines a name space in which your classes are stored. For multilevel package, we use hierarchy of packages like: `package` *`pkg1.pkg2.pk3;`* |
+| `import` | statement use to bring certain classes, or entire packages, into visibility. Generally like: `import` *`pkg1.pkg2.classname`* `\|*`. |
 
 
 ## Separators

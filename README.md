@@ -70,6 +70,9 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 ### [non-Access Modifier](src/nonAccessModifier/)
 - [`static` Keyword](src/nonAccessModifier/staticKeyword.java)
 
+### [`package` Keyword](src/packages/)
+- [`import` Keyword](src/packages/p2/importDemo.java)
+
 ### [`this` Keyword](src/thisKeyword/this_keyword.java)
 
 ### [goto statement](src/gotoStatement/goto_statement.java)
