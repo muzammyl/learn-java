@@ -65,6 +65,8 @@ internal processes.
 | `Object` | `Object` is a superclass of all other classes, a reference variable of type `Object` can refer to an object of any other class. |
 | `package` | `package` *`pkg;`* (syntax) statement defines a name space in which your classes are stored. For multilevel package, we use hierarchy of packages like: `package` *`pkg1.pkg2.pk3;`* |
 | `import` | statement use to bring certain classes, or entire packages, into visibility. Generally like: `import` *`pkg1.pkg2.classname`* `\|*`. |
+| `interface` | use to fully abstract a class, what a class can do & how it does, they lack instance variables, also their methods are declared without any body. Any number of classes can implement `interface` & vise versa. Variables declared are implicitly `final`, `static` & `public`. |
+| `implements` | `interface` can be implemented on more than one `class`. Include `implements` clause in class definition like: `class` *`class-name`* `implements` *`interface-name`*. For more than one `interface` use comma to separate. To implement an interface method, it must be declared as `public`. |
 
 
 ## Separators
