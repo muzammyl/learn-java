@@ -67,6 +67,7 @@ internal processes.
 | `import` | statement use to bring certain classes, or entire packages, into visibility. Generally like: `import` *`pkg1.pkg2.classname`* `\|*`. |
 | `interface` | use to fully abstract a class, what a class can do & how it does, they lack instance variables, also their methods are declared without any body. Any number of classes can implement `interface` & vise versa. Variables declared are implicitly `final`, `static` & `public`. |
 | `implements` | `interface` can be implemented on more than one `class`. Include `implements` clause in class definition like: `class` *`class-name`* `implements` *`interface-name`*. For more than one `interface` use comma to separate. To implement an interface method, it must be declared as `public`. If a class includes an `interface` but does not fully implement the methods then that class must be declared as `abstract`. |
+| `default` | default method provide a means by which interfaces could be expanded without breaking existing code. |
 
 
 ## Separators
