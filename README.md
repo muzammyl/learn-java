@@ -65,6 +65,7 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 - [`final` Method](src/inheritance/final_method.java)
 - [`interface` Keyword](src/inheritance/interface_keyword.java)
 - [`implements` Keyword](src/inheritance/implements_keyword.java)
+- [`default` Keyword](src/inheritance/default_keyword.java)
 
 ### [Access Modifiers](src/accessModifiers/)
 - [`public` & `private`](src/accessModifiers/publicPrivate.java)
