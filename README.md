@@ -76,6 +76,13 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 ### [`package` Keyword](src/packages/)
 - [`import` Keyword](src/packages/p2/importDemo.java)
 
+### [Exception Handler](src/exception/)
+- [`try` & `catch` Keywords](src/exception/trycatch.java)
+- [Multiple `catch`](src/exception/multicatch.java)
+- [`throw` Keyword](src/exception/throw_keyword.java)
+- [`throws` Keyword](src/exception/throws_keyword.java)
+- [`finally` Keyword](src/exception/finally_keyword.java)
+
 ### [`this` Keyword](src/thisKeyword/this_keyword.java)
 
 ### [goto statement](src/gotoStatement/goto_statement.java)

@@ -107,3 +107,42 @@ Thus, VarArgs are specified by three periods(...). This syntax tells the compile
 | **Same package non-subclass** | No | Yes | Yes | Yes |
 | **Different package subclass** | No | No | Yes | Yes |
 | **Different package non-subclass** | No | No | No | Yes |
+
+## **Exceptions**
+
+**Unchecked Exceptions:** exceptions need not to be included in any method's `throws` list.
+
+**Checked Exceptions:** exceptions that must be included in a method's `throws` list if that method can generate one of these exceptions & does not handle it itself.
+
+### **Unchecked Exceptions**
+
+- ArithmeticException
+- ArrayIndexOutOfBoundsException
+- ArrayStoreException
+- ClassCastException
+- EnumConstantNotPresentException
+- IllegalArgumentException
+- IllegalCallerException
+- IllegalMonitorStateException
+- IllegalStateException
+- IllegalThreadStateException
+- IndexOutOfBoundsException
+- LayerInstantiationException
+- NegativeArraySizeException
+- NullPointerException
+- NumberFormatException
+- SecurityException
+- StringIndexOutOfBoundsException
+- TypeNotPresentException
+- UnsupportedOperationException
+
+### **Checked Exceptions**
+
+- ClassNotFoundException
+- CloneNotSupportedException
+- IllegalAccessException
+- InstantiationException
+- InterruptedException
+- NoSuchFieldException
+- NoSuchMethodException
+- ReflectiveOperationException

@@ -46,6 +46,9 @@ internal processes.
 | `extends` | `extends` keyword simply incorporate the definition of one class into another(can't access `private` members). |
 | `super` | subclass can call a constructor defined by its superclass by use of `super(arg-list);`, it also acts like `this` keyword like `super.member;` |
 | `abstract` | `abstract class` cann't be used to create object, it must be inherited from one class to another. `abstract` method can only be used in abstract class, it is undefined(no body), body is placed in subclass. |
+| `interface` | use to fully abstract a class, what a class can do & how it does, they lack instance variables, also their methods are declared without any body. Any number of classes can implement `interface` & vise versa. Variables declared are implicitly `final`, `static` & `public`. |
+| `implements` | `interface` can be implemented on more than one `class`. Include `implements` clause in class definition like: `class` *`class-name`* `implements` *`interface-name`*. For more than one `interface` use comma to separate. To implement an interface method, it must be declared as `public`. If a class includes an `interface` but does not fully implement the methods then that class must be declared as `abstract`. |
+| `default` | default method provide a means by which interfaces could be expanded without breaking existing code. |
 
 
 ## Other keywords
@@ -65,9 +68,17 @@ internal processes.
 | `Object` | `Object` is a superclass of all other classes, a reference variable of type `Object` can refer to an object of any other class. |
 | `package` | `package` *`pkg;`* (syntax) statement defines a name space in which your classes are stored. For multilevel package, we use hierarchy of packages like: `package` *`pkg1.pkg2.pk3;`* |
 | `import` | statement use to bring certain classes, or entire packages, into visibility. Generally like: `import` *`pkg1.pkg2.classname`* `\|*`. |
-| `interface` | use to fully abstract a class, what a class can do & how it does, they lack instance variables, also their methods are declared without any body. Any number of classes can implement `interface` & vise versa. Variables declared are implicitly `final`, `static` & `public`. |
-| `implements` | `interface` can be implemented on more than one `class`. Include `implements` clause in class definition like: `class` *`class-name`* `implements` *`interface-name`*. For more than one `interface` use comma to separate. To implement an interface method, it must be declared as `public`. If a class includes an `interface` but does not fully implement the methods then that class must be declared as `abstract`. |
-| `default` | default method provide a means by which interfaces could be expanded without breaking existing code. |
+
+
+## Exception handler
+
+| Syntax | Description |
+| ------ | ----------- |
+| `try` | use to enclose the code that you want to monitor inside a block. |
+| `catch` | a clause that specifies the exception type that you wish to catch. |
+| `throw` | use to throw an exception explicitly. |
+| `throws` | a `throws` clause lists the types of exceptions that a method might throw. |
+| `finally` | `finally` creates a block of code that will be executed after a `try`/`catch` block has completed & before the code following the `try`/`catch` block. |
 
 
 ## Separators
