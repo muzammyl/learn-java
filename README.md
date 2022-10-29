@@ -82,6 +82,8 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 - [`throw` Keyword](src/exception/throw_keyword.java)
 - [`throws` Keyword](src/exception/throws_keyword.java)
 - [`finally` Keyword](src/exception/finally_keyword.java)
+- [Custom Exception](src/exception/customException.java)
+- [Chained Exceptions](src/exception/chainedExceptions.java)
 
 ### [`this` Keyword](src/thisKeyword/this_keyword.java)
 
