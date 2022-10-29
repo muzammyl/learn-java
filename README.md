@@ -85,6 +85,9 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 - [Custom Exception](src/exception/customException.java)
 - [Chained Exceptions](src/exception/chainedExceptions.java)
 
+### [Thread](src/thread/)
+- [`currentThread`](src/thread/current_thread.java)
+
 ### [`this` Keyword](src/thisKeyword/this_keyword.java)
 
 ### [goto statement](src/gotoStatement/goto_statement.java)

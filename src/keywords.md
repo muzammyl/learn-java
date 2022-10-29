@@ -159,3 +159,15 @@ internal processes.
 | `void notifyAll()` | resumes execution of all thread waiting on the invoking object. |
 | `String toString()` | returns a string that describes the object. |
 | `void wait()`<br>`void wait(long milliseconds)`<br>`void wait(long milliseconds, nanoseconds)` | waits on another thread of execution. |
+
+## Thread class methods
+
+| Method | Meaning |
+| ------ | ------- |
+| `getName` | obtain a thread's name. |
+| `getPriority` | obtain a thread's priority. |
+| `isAlive` | determine if a thread is still runnung. |
+| `join` | wait for a thread to terminate. |
+| `run` | entry point for the thread. |
+| `sleep` | suspend a thread for a period of time. |
+| `start` | start a thread by calling its run method. |
