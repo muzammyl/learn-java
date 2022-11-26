@@ -87,6 +87,7 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 
 ### [Thread](src/thread/)
 - [`currentThread`](src/thread/current_thread.java)
+- [New Thread](src/thread/newThread.java)
 
 ### [`this` Keyword](src/thisKeyword/this_keyword.java)
 

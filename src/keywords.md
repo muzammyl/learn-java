@@ -68,6 +68,7 @@ internal processes.
 | `Object` | `Object` is a superclass of all other classes, a reference variable of type `Object` can refer to an object of any other class. |
 | `package` | `package` *`pkg;`* (syntax) statement defines a name space in which your classes are stored. For multilevel package, we use hierarchy of packages like: `package` *`pkg1.pkg2.pk3;`* |
 | `import` | statement use to bring certain classes, or entire packages, into visibility. Generally like: `import` *`pkg1.pkg2.classname`* `\|*`. |
+| `Runnable` | it abstracts a unit of executable code, a thread can be constructed on any object that implements `Runnable`. |
 
 
 ## Exception handler
