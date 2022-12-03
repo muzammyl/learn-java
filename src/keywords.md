@@ -69,6 +69,7 @@ internal processes.
 | `package` | `package` *`pkg;`* (syntax) statement defines a name space in which your classes are stored. For multilevel package, we use hierarchy of packages like: `package` *`pkg1.pkg2.pk3;`* |
 | `import` | statement use to bring certain classes, or entire packages, into visibility. Generally like: `import` *`pkg1.pkg2.classname`* `\|*`. |
 | `Runnable` | it abstracts a unit of executable code, a thread can be constructed on any object that implements `Runnable`. |
+| `synchronized` | it is used to lock a single thread with the shared data so that no other thread can access it. While a synchronized block is synchronized on some object. |
 
 
 ## Exception handler

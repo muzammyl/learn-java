@@ -89,6 +89,9 @@ This repo also acts as a **cheatsheet** to help Pro developers in their coding t
 - [`currentThread`](src/thread/current_thread.java)
 - [New Thread](src/thread/newThread.java)
 - [Multiple Threads](src/thread/multiThread.java)
+- [`isAlive` + `join`](src/thread/isAlive_join.java)
+- [`synchronized` Keyword](src/thread/sync.java)
+- [`synchronized` Block](src/thread/syncBlock.java)
 
 ### [`this` Keyword](src/thisKeyword/this_keyword.java)
 
